@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandroxx Estate - Channel Partner</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+    header {
+        background-color: #1E3A8A;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    nav {
+        background-color: #111;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        padding: 15px 20px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: #333;
+    }
+    main {
+        padding: 20px;
+    }
+    .property {
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .property h3 {
+        margin-top: 0;
+    }
+    form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    button {
+        background-color: #1E3A8A;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    button:hover {
+        background-color: #111;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #111;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Sandroxx Estate - Become a Channel Partner</h1>
+    <p>Join us to expand your real estate business and earn commissions!</p>
+</header>
+<nav>
+    <a href="#properties">Properties</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+<main>
+    <section id="properties">
+        <h2>Featured Properties</h2>
+        <div class="property">
+            <h3>Residential Plot - Saoner Road</h3>
+            <p>Price: ₹25 Lakhs | Size: 1 Acre</p>
+            <p>Corner plot available with good connectivity. Perfect for investment or development.</p>
+        </div>
+        <div class="property">
+            <h3>Commercial Land - Koradi Road</h3>
+            <p>Price: ₹35 Lakhs | Size: 0.5 Acre</p>
+            <p>Ideal location for shops or warehouses. High ROI potential.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Sandroxx Estate</h2>
+        <p>We are a growing real estate company in Nagpur helping channel partners connect with property buyers. Earn commission by referring clients and expanding your business network.</p>
+    </section>
+    <section id="contact">
+        <h2>Become a Channel Partner</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message / Interest"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+<footer>
+    &copy; 2026 Sandroxx Estate. All rights reserved.
+</footer>
+</body>
+</html>
